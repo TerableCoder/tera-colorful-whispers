@@ -1,7 +1,7 @@
 {
-    "disableAutoUpdate": true,
+    "disableAutoUpdate": false,
     "options": {
-        "niceName": "ColWhisps"
+        "niceName": "CWhispers"
     },
     "servers": ["https://raw.githubusercontent.com/Leyki/tera-colorful-whispers/master/"],
     "supportUrl": "https://github.com/Leyki/tera-colorful-whispers/issues"
