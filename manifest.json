@@ -1,13 +1,13 @@
 {
 	"files": {
-		"index.js": "92d8fc5b8f465e65bd41d1153251077f9aefb4051e36cfb66e37797ecd53d459",
+		"index.js": "17f5ec5f87df983fadc0d96799b7c49e2d9928c845a5d28936e5a972ce13539d",
 		"module.json": "93863ca9db6fd84636eb925630b41dd05967904ec299ce4cf1a262a6f1a0caf3",
-		"README.md": "5b912d1971f9e9ff73da1fc673f2bdaaf614a6f2bd0cd7cdc4ffbbdfc0717d6b",
-		"settings.json": "e59f3cecdf4d24f63d0d11b861f0254b86580362b061b5f8455fe9f92be86008",
-		"imgs/sample.png": "e9cf4e213aa6bce164f76294c282f61544ec0bd6218743165007d2e8e61db6ae",
-		"README.html": "bf493854711be33eebac20af24acb279f48ef5932f5987f6d0852194b6de1384"
-	},
-	"defs": {
-		"S_WHISPER": 2
+		"README.html": "01c3658ed0c23f19cc0ad92a851296919a8c5150c355358a8f2f2acee815fe8d",
+		"README.md": "051f1617ac7a15da53b0dacf374fc780467373fbaf38adfd529c77309651034d",
+		"settings": {
+			"overwrite": false,
+			"hash": ["f52c6f4336ec7c8b5467dbd80f8b596329ce3b184ceec8fa2be32a57f715af1f"]
+		},
+		"imgs/sample.png": "e9cf4e213aa6bce164f76294c282f61544ec0bd6218743165007d2e8e61db6ae"
 	}
 }

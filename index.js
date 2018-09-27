@@ -79,11 +79,10 @@ module.exports = function ZelekieColorfulWhispers(mod) {
                 message: '<font color="' + Color + '">Hello Senpai!</font>'
             })
         },
+        /* soon:tm:
         reload() {
-            delete (settings)
-            const settings = require(`./config.json`)
-            mod.command.message('Configuration file reloaded!')
         },
+        */
         $default() { mod.command.message('Read the readme senpai! And remember it...you have forgotten me...right? - Sighs - It\'s okay, i won\'t stop loving you, i promise!') },
     })
 }

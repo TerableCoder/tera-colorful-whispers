@@ -21,9 +21,9 @@ In addition to that, it's meant to bring some extra customization such as, switc
 
 * ***`cw`***  *`[on/off]`* turns on and off the whole module functionalities. Simple.
 ######
-* ***`cw`*** *`[me/others/particular]` + `[on/off]`* turns on and off specific module functionalities.
+* ***`cw`*** *`[me/others/particular]` `[on/off]`* turns on and off specific module functionalities.
 ######
-* ***`cw`*** *`+`* ***`color`*** *`#hexcolor`* Sends a message directly from your cute kouhai to get an idea of how the color of choice would look in game.
+* ***`cw`*** ***`color`*** *`#hexcolor`* Sends a message directly from your cute kouhai to get an idea of how the color of choice would look in game.
 
 ###### Credits
 
