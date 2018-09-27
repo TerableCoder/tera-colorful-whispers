@@ -11,7 +11,7 @@ In addition to that, it's meant to bring some extra customization such as, switc
 #### Usage
 
 1. Install it(duh).
-2. Edit `settings.json` to colorize. Me -> Obviously your whispers | Others -> Obviously others whispers | particular -> Name based whispers, you can state them both a single string or array of strings to target as many people you want and different ways.
+2. Edit `settings.json` to colorize. Me -> Obviously your whispers | Others -> Obviously others whispers | particular -> Name based whispers, you can state them both a single string or array of strings to target as many people you want in different ways.
 3. There's some commands below, most of them are useless.
 
 *What the heck is hex color tho??*: https://www.hexcolortool.com/
