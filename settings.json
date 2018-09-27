@@ -1,0 +1,24 @@
+{
+  "globallyEnabled": true,
+  "me": {
+    "enabled": true,
+    "color": "#3399FF"
+  },
+  "others": {
+    "enabled": true,
+    "color": "#f38958"
+  },
+  "particular": {
+    "enabled": false,
+    "characters": [
+      {
+        "name": "singleNameExample",
+        "color": "#hexcolorhere"
+      },
+      {
+        "name": ["Array", "Of", "Names", "Example"],
+        "color": "#hexcolorhere"
+      }
+    ]
+  }
+}

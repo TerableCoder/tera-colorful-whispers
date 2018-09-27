@@ -1,0 +1,13 @@
+{
+	"files": {
+		"index.js": "92d8fc5b8f465e65bd41d1153251077f9aefb4051e36cfb66e37797ecd53d459",
+		"module.json": "93863ca9db6fd84636eb925630b41dd05967904ec299ce4cf1a262a6f1a0caf3",
+		"README.md": "eee5005a1824e1d405793a6eefec48a81db2cb806eda88ff9630d3272afdfba5",
+		"settings.json": "e59f3cecdf4d24f63d0d11b861f0254b86580362b061b5f8455fe9f92be86008",
+		"imgs/sample.png": "e9cf4e213aa6bce164f76294c282f61544ec0bd6218743165007d2e8e61db6ae",
+		"README.html": "f8a62aa7290f0f36efa5e4d12a589e16a819fb5b6a573e65bd345b3deb57c06b"
+	},
+	"defs": {
+		"S_WHISPER": 2
+	}
+}
