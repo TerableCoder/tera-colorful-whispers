@@ -4,7 +4,7 @@
 		"module.json": "93863ca9db6fd84636eb925630b41dd05967904ec299ce4cf1a262a6f1a0caf3",
 		"README.html": "01c3658ed0c23f19cc0ad92a851296919a8c5150c355358a8f2f2acee815fe8d",
 		"README.md": "051f1617ac7a15da53b0dacf374fc780467373fbaf38adfd529c77309651034d",
-		"settings": {
+		"settings.json": {
 			"overwrite": false,
 			"hash": ["f52c6f4336ec7c8b5467dbd80f8b596329ce3b184ceec8fa2be32a57f715af1f"]
 		},
