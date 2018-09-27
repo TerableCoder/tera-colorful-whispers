@@ -390,33 +390,12 @@ blockquote {
 <p>In addition to that, it's meant to bring some extra customization such as, switching the message color of a specific character(or group of characters) name...And that's the only extra thing pretty much.</p>
 <p>(If you randomly came accross this respository do search &quot;tera proxy&quot; as the script it's meant to be run on it).</p>
 <p><img src="imgs/sample.png" alt="Sample"></p>
-<h4 id="usagecustomizing-with-the-script">Usage/Customizing with the script</h4>
-<p>Here i'll explain how to edit the settings file <em><code>settings.js</code></em>. Most of it, it's pretty self explanatory(no, seriously, ignore it if you have basic knowledge). Futhermore into that, the script has in game accesible commands(that will be explained way below) to control some of the attributes however do note that changes made through them won't be saved when restarting!(Because i'm lazy).</p>
-<pre class="hljs"><code><div>{
-  <span class="hljs-attr">"globallyEnabled"</span>: <span class="hljs-literal">true</span>, // Enables and disables the whole script from coloring any whisper(true, false).
-  <span class="hljs-attr">"me"</span>: { // Identifier for the user whispers(Yours).
-    <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">true</span>, // Enabled/disabled(true, false).
-    <span class="hljs-attr">"color"</span>: <span class="hljs-string">"#3399FF"</span> // Hex color of choice.
-  },
-  <span class="hljs-attr">"others"</span>: {
-    <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">true</span>, // (true, false) 
-    <span class="hljs-attr">"color"</span>: <span class="hljs-string">"#e82121"</span> // Hex color.
-  },
-  <span class="hljs-attr">"particular"</span>: { // Identifier for whispers of char names we want to give a particular message color.
-    <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">false</span>,
-    <span class="hljs-attr">"characters"</span>: [ // Each name and color enclosed by { } contains the used data. You can add as many as you need, don't break the format.
-      {
-        <span class="hljs-attr">"name"</span>: <span class="hljs-string">"singleNameExample"</span>, // If you're modifying just one name, use this type of syntax.
-        <span class="hljs-attr">"color"</span>: <span class="hljs-string">"#hexcolorhere"</span>
-      },
-      {
-        <span class="hljs-attr">"name"</span>: [<span class="hljs-string">"Array"</span>, <span class="hljs-string">"Of"</span>, <span class="hljs-string">"Names"</span>, <span class="hljs-string">"Example"</span>], // If you're modifying a group of chars whispers messages with a color of choice, use this syntax.
-        <span class="hljs-attr">"color"</span>: <span class="hljs-string">"#hexcolorhere"</span>
-      }
-    ]
-  }
-}
-</div></code></pre>
+<h4 id="usage">Usage</h4>
+<ol>
+<li>Install it(duh).</li>
+<li>Edit <code>settings.json</code> to colorize. Me -&gt; Obviously your whispers | Others -&gt; Obviously others whispers | particular -&gt; Name based whispers, you can state them both a single string or array of strings to target as many people you want and different ways.</li>
+<li>There's some commands below, most of them are useless.</li>
+</ol>
 <p><em>What the heck is hex color tho??</em>: https://www.hexcolortool.com/</p>
 <h4 id="in-game-commands">In-game Commands</h4>
 <ul>
@@ -428,7 +407,7 @@ blockquote {
 </ul>
 <h6 id=""></h6>
 <ul>
-<li><em><strong><code>cw</code></strong></em> <em><code>+</code></em> <em><strong><code>color</code></strong></em> <em><code>#hexcolor</code></em> Sends a message directly from your cute kouhai to get an idea of how the hexcolor of choice would look in game.</li>
+<li><em><strong><code>cw</code></strong></em> <em><code>+</code></em> <em><strong><code>color</code></strong></em> <em><code>#hexcolor</code></em> Sends a message directly from your cute kouhai to get an idea of how the color of choice would look in game.</li>
 </ul>
 <h6 id="credits">Credits</h6>
 <ul>
