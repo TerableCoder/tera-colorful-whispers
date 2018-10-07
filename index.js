@@ -2,7 +2,7 @@ module.exports = function ZelekieColorfulWhispers(mod) {
 
     const settings = require(`./settings.json`)
 
-    mod.hook('S_WHISPER', 2, { order: 11 }, event => {
+    mod.hook('S_WHISPER', 2, { order: 100 }, event => {
         if (settings.globallyEnabled) {
             if (mod.game.me.is(event.player) && settings.me.enabled) {
                 // Sent
