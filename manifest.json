@@ -1,13 +1,3 @@
 {
-	"files": {
-		"index.js": "2af983531bd67959e3e75efe74afa507d3d2fae73d7c1f1c35140087fd104432",
-		"module.json": "c122b1c29f38b942773beab0dfe85b5aa86630768517549b8073823ec8ffca24",
-		"README.html": "01c3658ed0c23f19cc0ad92a851296919a8c5150c355358a8f2f2acee815fe8d",
-		"README.md": "0a493932c21b913f7114e12a701b7de06da06d208e5fd63fb9b7f89e668876d3",
-		"settings.json": {
-			"overwrite": false,
-			"hash": "f52c6f4336ec7c8b5467dbd80f8b596329ce3b184ceec8fa2be32a57f715af1f"
-		},
-		"imgs/sample.png": "a087346799161bf08b7689a2df93bc7dbe9552d8eebcb6feca098041b152ed90"
-	}
+	
 }

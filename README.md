@@ -35,3 +35,4 @@ All of this works clientsided. Nothing you sent is changed.
 * Salty cuz he helped making my code actually work.
 * babbu cuz he's a qt.
 * All the people i randomly whispered when testing.
+* TerableCoder for the friend coloring
