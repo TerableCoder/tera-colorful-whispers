@@ -1,5 +1,5 @@
 {
-    "disableAutoUpdate": true,
+    "disableAutoUpdate": false,
     "disabled": false,
     "name": "Colorful Whisper Messages",
     "author": "Leyki / TerableCoder",
