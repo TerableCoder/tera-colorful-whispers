@@ -2,15 +2,15 @@
   "globallyEnabled": true,
   "me": {
     "enabled": true,
-    "color": "#FF00FF"
+    "color": "#f38958"
   },
   "friends": {
     "enabled": true,
-    "color": "#27AEE3"
+    "color": "#26e39b"
   },
   "others": {
     "enabled": true,
-    "color": "#009900"
+    "color": "#3388ff"
   },
   "particular": {
     "enabled": false,

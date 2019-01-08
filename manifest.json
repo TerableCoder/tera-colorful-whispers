@@ -1,12 +1,12 @@
 {
 	"files": {
-		"index.js": "dc1f81686ebd376012c0c5681cc33cea793c5e94ec96e0aa1ceca004e8a629c4",
-		"module.json": "5735c73120a9ff968c1482a7811d4f472265f36937a093d1b65d279bf401522a",
-		"README.html": "239ccd333f8272a9f07b5b83aecc162066abd7b80b1f10ad1872589abc45c4bc",
-		"README.md": "3b852ee8f23f714377db676c1f27757915e1dbe0a1ef4952e093111bc4ca0ea5",
+		"index.js": "fc17b35f291d2a94a8eda1fcf750d139aa88c369b84f196dd26c732b9ebfd7cb",
+		"module.json": "3b0324bc19c412d3fcd1caaad0d3b31f21897ee49f388ef4b8d4865c74be021a",
+		"README.html": "5ded70e5d7e76e037ce27a4ce2a524d56227ca8640246f2657295208214223a9",
+		"README.md": "490c8d96f7e3bbf630a75f9cdbac8f901be761c5f2ecdbad9f0b076b775c40ae",
 		"settings.json": {
 			"overwrite": false,
-			"hash": "ed10820b1c3a7ceaa530f4fba7babb8b862bd50fd667256d02586c4baed9fed0"
+			"hash": "35ccca3c74a6b4ef76c8b5436fdf9f7e59d8d601051a4f2e96c93c3b74255476"
 		},
 		"imgs/sample.png": "a087346799161bf08b7689a2df93bc7dbe9552d8eebcb6feca098041b152ed90"
 	},
