@@ -27,6 +27,9 @@ All of this works clientsided. Nothing you sent is changed.
 ######
 * ***`cw`*** ***`color`*** *`#hexcolor`* Sends a message directly from your cute kouhai to get an idea of how the color of choice would look in game.
 
+#### I'm Getting an Error!
+You're missing the S_DELETE_FRIEND opcode. Download it from https://github.com/TerableCoder/Tera-NA-Opcodes.
+
 #### Other people credits
 
 * All the people i randomly whispered when testing.

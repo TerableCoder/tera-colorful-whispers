@@ -1,28 +1,36 @@
 {
-  "globallyEnabled": true,
-  "me": {
-    "enabled": true,
-    "color": "#FF00FF"
-  },
-  "friends": {
-    "enabled": true,
-    "color": "#27AEE3"
-  },
-  "others": {
-    "enabled": true,
-    "color": "#26E39B"
-  },
-  "particular": {
-    "enabled": false,
-    "characters": [
-      {
-        "name": "singleNameExample",
-        "color": "#hexcolorhere"
-      },
-      {
-        "name": ["ArraY", "oF", "NameS", "ExamplE"],
-        "color": "#hexcolorhere"
-      }
-    ]
-  }
+    "version": 1,
+    "data": {
+        "globallyEnabled": true,
+        "me": {
+            "enabled": true,
+            "color": "#FF00FF"
+        },
+        "friends": {
+            "enabled": true,
+            "color": "#27AEE3"
+        },
+        "others": {
+            "enabled": true,
+            "color": "#26E39B"
+        },
+        "particular": {
+            "enabled": false,
+            "characters": [
+                {
+                    "name": "singleNameExample",
+                    "color": "#hexcolorhere"
+                },
+                {
+                    "name": [
+                        "ArraY",
+                        "oF",
+                        "NameS",
+                        "ExamplE"
+                    ],
+                    "color": "#hexcolorhere"
+                }
+            ]
+        }
+    }
 }

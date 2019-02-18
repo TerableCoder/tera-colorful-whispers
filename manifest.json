@@ -1,18 +1,15 @@
 {
 	"files": {
-		"index.js": "fc17b35f291d2a94a8eda1fcf750d139aa88c369b84f196dd26c732b9ebfd7cb",
-		"module.json": "3081dda266d1699742d7798558139f40e3ffc80a0c42b3695c5d0ef7dfa4543b",
-		"README.html": "5ded70e5d7e76e037ce27a4ce2a524d56227ca8640246f2657295208214223a9",
-		"README.md": "490c8d96f7e3bbf630a75f9cdbac8f901be761c5f2ecdbad9f0b076b775c40ae",
-		"settings.json": {
-			"overwrite": false,
-			"hash": "a4bdb0305f65dabb5b1f88180a4ef7ce223f3419b409e5dcd0090ff0b868dfb9"
-		},
-		"imgs/sample.png": "a087346799161bf08b7689a2df93bc7dbe9552d8eebcb6feca098041b152ed90"
+		"index.js": "dd650c82b7fb68fb350cc2099ac128a24c49a871d50f6c0c9ec217860a6ae799",
+		"module.json": "ad6ab46b784e800c7b94f4144d24381fc948eda7ece64b087f22a9b30d2ebc40",
+		"README.html": "76c3587f90056de58b78d5e72949ac1ad2c62d5e722d0e13faf972fcd9cd04fe",
+		"README.md": "f0c8086a6a28eb89f07adab7c8cf367c91d3b57517088bd8ad9c637fb31d1160",
+		"imgs/sample.png": "a087346799161bf08b7689a2df93bc7dbe9552d8eebcb6feca098041b152ed90",
+		"lib/settings_migrator.js": "8692169c42f199167b66b22da67e3e6b260f6e5442fe6d911ac5df3012cc1100"
 	},
 	"defs": {
 		"S_WHISPER": 2,
-		"S_FRIEND_LIST": 1,
-		"S_UPDATE_FRIEND_INFO": 1
+		"S_UPDATE_FRIEND_INFO": 1,
+		"S_DELETE_FRIEND": 1
 	}
 }
