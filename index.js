@@ -1,7 +1,7 @@
 module.exports = function ZelekieColorfulWhispers(mod) {
 	const friendList = {};
 
-	mod.hook('S_WHISPER', 2, { order: 100 }, event => { // Does this even work with potty mouth?
+	mod.hook('S_WHISPER', 3, { order: 100 }, event => { // Does this even work with potty mouth?
 		if (!mod.settings.globallyEnabled) return;
 
 		// Sent
@@ -12,13 +12,13 @@ module.exports = function ZelekieColorfulWhispers(mod) {
 		// Received
 		if(mod.settings.particular.enabled){
 			for (let character of mod.settings.particular.characters){
-				if (character.name.includes(event.authorName)){
+				if (character.name.includes(event.name)){
 					event.message = colorMessage(event.message, character.color);
 					return true;
 				}
 			}
 		}
-		if(mod.settings.friends.enabled && friendList[event.authorName]){ // ...
+		if(mod.settings.friends.enabled && friendList[event.name]){ // ...
 			event.message = colorMessage(event.message, mod.settings.friends.color);
 			return true;
 		}
@@ -90,8 +90,8 @@ module.exports = function ZelekieColorfulWhispers(mod) {
 			},
 		},
 		color(Color) {
-			mod.send('S_WHISPER', 2, {
-				authorName: "Kouhai-chan", // tbh tho, apparently the senpai/kouhai thingy really sucks, animey stuff aside.
+			mod.send('S_WHISPER', 3, {
+				name: "Kouhai-chan", // tbh tho, apparently the senpai/kouhai thingy really sucks, animey stuff aside.
 				recipient: mod.game.me.name,
 				message: '<font color="' + Color + '">Hello Senpai!</font>'
 			})

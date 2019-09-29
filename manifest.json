@@ -1,6 +1,6 @@
 {
 	"files": {
-		"index.js": "dd650c82b7fb68fb350cc2099ac128a24c49a871d50f6c0c9ec217860a6ae799",
+		"index.js": "c910c1f58f11b9a21f83d4473e22f7c20e71666b3b0f4705894c1a11ce12e3d2",
 		"module.json": "ad6ab46b784e800c7b94f4144d24381fc948eda7ece64b087f22a9b30d2ebc40",
 		"README.html": "76c3587f90056de58b78d5e72949ac1ad2c62d5e722d0e13faf972fcd9cd04fe",
 		"README.md": "93b737f5c7119776cae6059374eb1d03445ab1ee81ac4ba6187215dca3b56ef4",
@@ -8,7 +8,7 @@
 		"lib/settings_migrator.js": "8692169c42f199167b66b22da67e3e6b260f6e5442fe6d911ac5df3012cc1100"
 	},
 	"defs": {
-		"S_WHISPER": 2,
+		"S_WHISPER": 3,
 		"S_UPDATE_FRIEND_INFO": 1,
 		"S_DELETE_FRIEND": 1
 	}
