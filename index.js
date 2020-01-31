@@ -5,7 +5,7 @@ module.exports = function ZelekieColorfulWhispers(mod) {
 		if (!mod.settings.globallyEnabled) return;
 
 		// Sent
-		if(mod.game.me.is(event.player) && mod.settings.me.enabled){
+		if(mod.game.me.is(event.gameId) && mod.settings.me.enabled){
 			event.message = colorMessage(event.message, mod.settings.me.color);
 			return true;
 		}
